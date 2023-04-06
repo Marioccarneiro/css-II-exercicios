@@ -1,20 +1,40 @@
 header{
     border-bottom: 1px solid black;
+    text-align: center;
   }
   
+
   main{
     width: 800px;
+    position: relative;
+    left: 30vw;
+    text-align: center;   
   }
   
   aside{
     width: 180px;
     border: 1px solid black;
+    position: fixed;
+    right: 0;
+    text-align: center;
   }
   
+  button:active{
+    color: black;
+    background-color: white;
+  }
+
+  button:hover{
+    cursor: pointer;
+  }
+
   footer{
     background-color: black;
     color: white;
     width: 100%;
+    position: fixed;
+    bottom: 0;
+    
   }
   
   button{
